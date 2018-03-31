@@ -5,7 +5,7 @@ def prime?(number)
  index = 0
  
  while index < number do
-   test_array >> index
+   test_array << index
    index += 1
  end
  
