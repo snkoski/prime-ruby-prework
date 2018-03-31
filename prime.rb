@@ -4,11 +4,11 @@ def prime?(number)
  
  while test_number < number do
    if number % test_number == 0
-     return true
+     return false
    else
      test_number += 1
    end
  end
- false
+ true
 end
 
